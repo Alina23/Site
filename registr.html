@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+<title> Регистрация </title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body link="red" bgcolor="#AFAFD8"  vlink="#336699" alink="green" class="menu3">
+<table border="1" widht="100" bgcolor="#AFAFD8" height="100">
+<h1>Форма регистрации</h1>
+<div align="center">
+<form action="registr_users.php" method="post" >
+<ul type="none">
+<li><p> Имя:     <input name= "name1" size= "20" MAXLENGTH= "20"> </li>
+      Фамилия: <input name = " surname" size= "20" MAXLENGTH= "20"> </li>
+
+<li><p>Дата Рождения
+<input name="Day" type="date"></li>
+<li><p> Пол:
+   Мужчина <INPUT NAME="gender" TYPE=RADIO VALUE="male">
+    Женщина <INPUT NAME="gender" TYPE=RADIO VALUE="female"></li>
+
+<li><p>  Город  <input name= "citi" size= "20" MAXLENGTH= "20"> </li> 
+<li><p> Почтовый ящик: <input name="email" type="email"></li>
+
+<li><p> Пароль: <input type="password"  name="passw" size="25"> </li>
+<li><p> Повторите пароль: <input type="password"  name="passw2" size="25"></li>
+<p>
+</ul>
+<input type="submit" name="submit" value="Зарегистрироваться">
+<input type="reset" value="Очистить">
+</div>
+
+</form>
+</body>
+</html>
